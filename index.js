@@ -48,6 +48,7 @@ var request = require('request');
 
 // replacements used in playground code
 global.print = function(arg) { if(arg) { console.log(arg); } }
+/*
 global.Map = function(arg) {}
 global.Map.addLayer = function(arg) {}
 global.Map.addCenterObject = function(arg) {}
@@ -58,6 +59,7 @@ global.Map.setOptions = function(arg) {}
 global.Chart = function(arg) {}
 global.Chart.image = function(arg) {}
 global.Chart.image.histogram = function(arg) {}
+*/
 global.commandLine = true
 
 
